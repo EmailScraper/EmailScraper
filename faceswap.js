@@ -1,4 +1,4 @@
-import { Client } from "https://cdn.jsdelivr.net/gh/EmailScraper/EmailScraper/index.min.js";
+import { Client } from "https://cdn.jsdelivr.net/npm/@gradio/client/dist/index.min.js";//"https://cdn.jsdelivr.net/gh/EmailScraper/EmailScraper/index.min.js";
 const client = await Client.connect("tuan2308/face-swap");
 
 $(function () {    
